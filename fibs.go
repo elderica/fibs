@@ -18,7 +18,7 @@ func (f *Fibs) Take(n uint) (ibs []int) {
 }
 
 func (f *Fibs) step() {
-	f.a, f.b = f.b, f.a + f.b
+	f.a, f.b = f.b, f.a+f.b
 }
 
 func (f *Fibs) Each(g func(i int)) {

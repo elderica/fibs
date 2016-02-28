@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"strconv"
 	"fmt"
 	"github.com/sbwhitecap/fibs"
+	"strconv"
 )
 
 func main() {
